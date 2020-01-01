@@ -238,7 +238,14 @@ header{
   text-transform: uppercase;
   color: black;
   text-align: center;
-  bor
+   border-right: 1px solid #ccc;
+   text-decoration: none;
+   font: 1em "Trebuchet MS", Arial;
+}
+
+#navbar nav a:selected{
+  background: #333;
+  color: white;
 }
 
 /*////////// LOGO //////////*/
